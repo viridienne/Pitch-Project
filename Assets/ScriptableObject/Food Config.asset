@@ -15,4 +15,10 @@ MonoBehaviour:
   FoodList:
   - FoodID: CARROT
     FoodValue: 10
-    FoodPref: {fileID: 8533418983033990280, guid: 058aeff0d74a942419b680732a465890, type: 3}
+    icon: {fileID: 21300000, guid: 49f5996b9eb09454f8f6a82a8e69ea01, type: 3}
+  - FoodID: BERRY
+    FoodValue: 10
+    icon: {fileID: 21300000, guid: c457e44150936f847b073ea1b78a3df6, type: 3}
+  - FoodID: SPINACH
+    FoodValue: 10
+    icon: {fileID: 21300000, guid: 18d037911046a3d438c31ca2401ce5ff, type: 3}

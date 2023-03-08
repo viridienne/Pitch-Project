@@ -2,12 +2,15 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Spawn Config",menuName = "Spawn Config")]
 public class SpawnFoodConfigSO : ScriptableObject
-{
+{    
+    public GameObject foodPref;
+
     public float DefaultSpeed;
     public int SpawnAmount;
-    public float MaxY;
-    public float MinY;
+    public float[] RowPosY;
+
     public float MaxSpeed;
     public float MinSpeed;
-    public float SpawnDelay;
+    public float MinDelay;
+    public float MaxDelay;
 }

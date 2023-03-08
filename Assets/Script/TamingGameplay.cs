@@ -1,50 +1,52 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class TamingGameplay : MonoBehaviour
 {
     [SerializeField] private UITame uiTame;
-
+    [SerializeField] private UIMergeController mergeController;
     [SerializeField] private TameInfoSO tameInfoConfig;
     [SerializeField] private FoodConfigSO foodConfigSo;
-
+    [SerializeField] private Transform[] backgrounds;
+    [SerializeField] private Transform background;
+    [SerializeField] private float startX;
+    [SerializeField] private float endX;
     public TameInfo SpawnMonster;
 
-    public FoodInfo FoodInfo;
+    public FoodInfo[] FoodInfo;
 
-    public float DefaultTameLevel;
-    public float CurrentTameLevel;
+
     // Start is called before the first frame update
     void Start()
     {
-        EventManager.Instance.OnFoodEat += OnFoodEaten;
     }
     
     [Button]
     public void StartTameGameplay()
     {
         SpawnMonster = null;
-        FoodInfo = null;
+        FoodInfo = new FoodInfo[3];
 
         SpawnMonster = tameInfoConfig.TameInfoList[0];
         
-        DefaultTameLevel = SpawnMonster.TameLevel;
-        CurrentTameLevel = 0;
-        var _fav = SpawnMonster.FavroriteID;
-        FoodInfo = foodConfigSo.GetFoodInfo(_fav);
+        mergeController.DefaultTameLevel = SpawnMonster.TameLevel;
+        mergeController.CurrentTameLevel = 0;
+        mergeController.FavFood = SpawnMonster.FavroriteID;
+        FoodInfo[0] = foodConfigSo.GetFoodInfo("CARROT");
+        FoodInfo[1] = foodConfigSo.GetFoodInfo("BERRY");
+        FoodInfo[2] = foodConfigSo.GetFoodInfo("SPINACH");
         
+        mergeController.FavFoodSprite = getFoodSprite(SpawnMonster.FavroriteID);
         SpawnFoodManager.Instance.StartSpawningObject(FoodInfo);
         uiTame.SetInfoText(SpawnMonster.Name,SpawnMonster.Region,SpawnMonster.Favorite,SpawnMonster.Description);
     }
 
-    private void OnFoodEaten(string _foodId, float _value)
+    private Sprite getFoodSprite(string _id)
     {
-        if (_foodId == FoodInfo.FoodID)
-        {
-            CurrentTameLevel += _value;
-            uiTame.UpdateTameBar(CurrentTameLevel, DefaultTameLevel);
-        }
+       var _s = FoodInfo.First(t => t.FoodID.Equals(_id));
+       return _s.icon;
     }
 }

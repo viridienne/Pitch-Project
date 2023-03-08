@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
     private float moveSpeed => GameManager.Instance.PlayerConfig.MoveSpeed;
 
     [SerializeField] private bool isDragging;
-
+    [SerializeField] private float defaultX;
     private Vector2 refPos;
     // Start is called before the first frame update
     void Start()
@@ -36,8 +36,8 @@ public class PlayerController : MonoBehaviour
                 if (isDragging)
                 {
                     Vector2 _currentPos = Camera.main.ScreenToWorldPoint(new Vector2(touch.position.x,touch.position.y));
+                    _currentPos.x = defaultX;
                     // var _myPos = Camera.main.ScreenToWorldPoint(touch.deltaPosition);
-                    var _direction = _currentPos - new Vector2(transform.position.x, transform.position.y);
                     // transform.Translate(_direction * moveSpeed * Time.deltaTime);
                     transform.position = Vector2.SmoothDamp(transform.position, _currentPos, ref refPos,
                         moveSpeed * Time.deltaTime);

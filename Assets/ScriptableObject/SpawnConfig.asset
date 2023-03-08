@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75258e84f6e44c44c8388a9673cf7a16, type: 3}
   m_Name: SpawnConfig
   m_EditorClassIdentifier: 
+  foodPref: {fileID: 6197248950520320685, guid: 058aeff0d74a942419b680732a465890, type: 3}
   DefaultSpeed: 2
   SpawnAmount: 50
-  MaxY: -1.39
-  MinY: -3.57
+  RowPosY:
+  - 0.1
+  - -1.36
+  - -2.94
   MaxSpeed: 4
   MinSpeed: 2
-  SpawnDelay: 1.5
+  MinDelay: 1
+  MaxDelay: 1.5
