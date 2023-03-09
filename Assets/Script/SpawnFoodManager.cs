@@ -24,14 +24,21 @@ public class SpawnFoodManager : MonoBehaviour
     {
         if(increased)return;
         
-        speed *=2;
+        EventManager.Instance.TriggerMonster?.Invoke();
+        Invoke(nameof(doubleSpeed),1f);
         increased = true;
+    }
+
+    private void doubleSpeed()
+    {
+        speed *=2;
     }
     // Start is called before the first frame update
     void Start()
     {
         isSpawning = false;
-        speed = Random.Range(config.MinSpeed, config.MaxSpeed);
+        // speed = Random.Range(config.MinSpeed, config.MaxSpeed);
+        speed = 3;
         roundDelay = Random.Range(config.MinDelay, config.MaxDelay);
         increased = false;
     }

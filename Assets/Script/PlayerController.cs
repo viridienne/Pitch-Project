@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private bool isDragging;
     [SerializeField] private float defaultX;
+    [SerializeField] private float maxY;
+    [SerializeField] private float minY;
     private Vector2 refPos;
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,7 @@ public class PlayerController : MonoBehaviour
                 {
                     Vector2 _currentPos = Camera.main.ScreenToWorldPoint(new Vector2(touch.position.x,touch.position.y));
                     _currentPos.x = defaultX;
+                    _currentPos.y = Mathf.Clamp(_currentPos.y, minY, maxY);
                     // var _myPos = Camera.main.ScreenToWorldPoint(touch.deltaPosition);
                     // transform.Translate(_direction * moveSpeed * Time.deltaTime);
                     transform.position = Vector2.SmoothDamp(transform.position, _currentPos, ref refPos,

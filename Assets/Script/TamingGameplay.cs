@@ -14,6 +14,7 @@ public class TamingGameplay : MonoBehaviour
     [SerializeField] private Transform background;
     [SerializeField] private float startX;
     [SerializeField] private float endX;
+    [SerializeField] private Animator monsterAnimator;
     public TameInfo SpawnMonster;
 
     public FoodInfo[] FoodInfo;
@@ -22,6 +23,8 @@ public class TamingGameplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartTameGameplay();
+        EventManager.Instance.TriggerMonster += OnTriggerMonster;
     }
     
     [Button]
@@ -48,5 +51,10 @@ public class TamingGameplay : MonoBehaviour
     {
        var _s = FoodInfo.First(t => t.FoodID.Equals(_id));
        return _s.icon;
+    }
+
+    private void OnTriggerMonster()
+    {
+        monsterAnimator.SetTrigger("Trigger");
     }
 }
