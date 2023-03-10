@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using DigitalRuby.SoundManagerNamespace;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -24,7 +25,7 @@ public class TamingGameplay : MonoBehaviour
     void Start()
     {
         StartTameGameplay();
-        EventManager.Instance.TriggerMonster += OnTriggerMonster;
+        // EventManager.Instance.TriggerMonster += OnTriggerMonster;
     }
     
     [Button]
@@ -45,6 +46,9 @@ public class TamingGameplay : MonoBehaviour
         mergeController.FavFoodSprite = getFoodSprite(SpawnMonster.FavroriteID);
         SpawnFoodManager.Instance.StartSpawningObject(FoodInfo);
         uiTame.SetInfoText(SpawnMonster.Name,SpawnMonster.Region,SpawnMonster.Favorite,SpawnMonster.Description);
+        EventManager.Instance.OnMonsterAnimation?.Invoke("entrance");
+        SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("entrance"),AudioHelper.Instance.GetAudio("entrance").clip);
+        SoundManager.PlayLoopingMusic(AudioHelper.Instance.GetAudio("BGM"),0.4f,0.5f,true);
     }
 
     private Sprite getFoodSprite(string _id)
@@ -52,9 +56,9 @@ public class TamingGameplay : MonoBehaviour
        var _s = FoodInfo.First(t => t.FoodID.Equals(_id));
        return _s.icon;
     }
-
-    private void OnTriggerMonster()
-    {
-        monsterAnimator.SetTrigger("Trigger");
-    }
+    //
+    // private void OnTriggerMonster()
+    // {
+    //     monsterAnimator.SetTrigger("Trigger");
+    // }
 }

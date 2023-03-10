@@ -1,0 +1,510 @@
+fileFormatVersion: 2
+guid: ca4519adb2bd4ba4693f636718fa6dd1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: excited_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 686
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e96698610a7ef448879bf104a8e5bbc
+      internalID: -868185536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 686
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2eff2dacf0feb4a955a13c8ce955b0
+      internalID: -137862385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 687
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f26a209b5a96e40b012f152dc3c527
+      internalID: 938341959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_16
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 686
+        width: 288
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de019c4c2b073a04aa349f11a95ce97c
+      internalID: -1263991093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_18
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 686
+        width: 288
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385cb53b0a5b337478a3bdf47a9e6c46
+      internalID: 1425954955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_23
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 349
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77496f0f0972ab347aad654aed312888
+      internalID: -1246332986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_25
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 349
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5645b89002d9173419d58c831a29bb18
+      internalID: -44945587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_27
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 349
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62999bda6d02a6e4a9f9b3e7f48e30c0
+      internalID: -1075327979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_36
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 349
+        width: 288
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78deaa6a9cb46444e9391b1648f1b3ac
+      internalID: -1072092704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_38
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 349
+        width: 288
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ff254af6ce3594d88c144d6676c9b3
+      internalID: 857199158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 12
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ee3d0560658d74a9c5539cb389b4fc
+      internalID: -149458243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_45
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 12
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b631fadaa74ad4eb45794c11f22fbf
+      internalID: -1361813602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_47
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 12
+        width: 308
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d006619640bf3ed4290209e2a7dad7ac
+      internalID: 1336195173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_56
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 12
+        width: 288
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc527d10bce6434aa49c931e695d777
+      internalID: -2028204037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited_58
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 12
+        width: 288
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb20ad99b91cfa4c8d498416dc3cc80
+      internalID: -369636649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      excited_50: 174521145
+      excited_6: -1319276284
+      excited_10: -199630633
+      excited_58: -369636649
+      excited_20: -2038871919
+      excited_57: 543037699
+      excited_0: 1861218493
+      excited_55: 1481994617
+      excited_29: -509879338
+      excited_47: 1336195173
+      excited_40: -8340584
+      excited_24: 783889784
+      excited_16: -1263991093
+      excited_30: -111474399
+      excited_1: 316607594
+      excited_36: -1072092704
+      excited_2: 1343787819
+      excited_48: -303713666
+      excited_15: 2112711432
+      excited_3: -868185536
+      excited_53: 1027502315
+      excited_56: -2028204037
+      excited_5: -137862385
+      excited_4: 1495487935
+      excited_35: -1551490762
+      excited_13: -1194218450
+      excited_27: -1075327979
+      excited_51: -1189079335
+      excited_7: 938341959
+      excited_8: -952942465
+      excited_19: 1685860374
+      excited_17: 1092232448
+      excited_39: 207194049
+      excited_52: -2102708343
+      excited_14: -1663262585
+      excited_28: -662535832
+      excited_26: 1285616558
+      excited_31: -2034829076
+      excited_49: 555377913
+      excited_54: -374886782
+      excited_43: -149458243
+      excited_59: 983306146
+      excited_23: -1246332986
+      excited_41: 1190483354
+      excited_18: 1425954955
+      excited_46: -43273705
+      excited_25: -44945587
+      excited_34: -935660067
+      excited_32: -167980574
+      excited_33: -1889014865
+      excited_42: -1002522252
+      excited_22: -1635686801
+      excited_44: -525377202
+      excited_12: 2131716231
+      excited_11: 695223663
+      excited_38: 857199158
+      excited_45: -1361813602
+      excited_9: -1905163025
+      excited_21: -611375161
+      excited_37: -402168107
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

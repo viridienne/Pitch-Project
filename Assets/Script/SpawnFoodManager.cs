@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.NetworkInformation;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -24,8 +25,8 @@ public class SpawnFoodManager : MonoBehaviour
     {
         if(increased)return;
         
-        EventManager.Instance.TriggerMonster?.Invoke();
-        Invoke(nameof(doubleSpeed),1f);
+        // EventManager.Instance.TriggerMonster?.Invoke();
+        Invoke(nameof(doubleSpeed),0.66f);
         increased = true;
     }
 
@@ -42,8 +43,16 @@ public class SpawnFoodManager : MonoBehaviour
         speed = config.Speed;
         roundDelay = config.Delay;
         increased = false;
+        isWin = false;
+        EventManager.Instance.OnWin += onWin;
     }
 
+    private bool isWin;
+    private void onWin()
+    {
+        speed = 0f;
+        isWin = true;
+    }
     public void StartQueue(FoodInfo _foodInfo, Queue<FoodObject> _queue)
     {
         for (int i = 0; i < config.SpawnAmount; i++)
@@ -101,6 +110,7 @@ public class SpawnFoodManager : MonoBehaviour
         rowIndex = 0;
         while (isSpawning)
         {
+            if(isWin) yield break;
             delay += Time.deltaTime;
             if (delay >= roundDelay)
             {
@@ -109,7 +119,7 @@ public class SpawnFoodManager : MonoBehaviour
                 randomFood(_foodInfo);
                 randomFood(_foodInfo);
             }
-
+            
             yield return new WaitForEndOfFrame();
         }
 

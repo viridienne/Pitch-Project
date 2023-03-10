@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 47b755bd77374d24cae0a504a42a4844
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: agitated_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1369
+        width: 280
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9f6bd84b643e04d920f3847c3f54b0
+      internalID: 828029367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1367
+        width: 280
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177d88c60926b8148aaa3f43551e4cba
+      internalID: -795053128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_9
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1362
+        width: 259
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64014f8c2661d8499ef7c1cedd9b3ac
+      internalID: -1257139715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_11
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1362
+        width: 259
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0492d6dd17e54f489e8439a1a529a4e
+      internalID: -554340178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_13
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1362
+        width: 259
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e152bd46e20f1f4cbcb71e7460330ce
+      internalID: -338565895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1025
+        width: 293
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d98446ee9c14b4c82492e0e9bec4c1
+      internalID: 1578738706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1025
+        width: 293
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0fa39091834584f98701bf0bfe744b
+      internalID: 1050498915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_23
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1025
+        width: 290
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b858a1acff742e64b8ffbf34cd80320b
+      internalID: -1784101213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_25
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1025
+        width: 290
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27a4b68d02971a40a62bd026c7d73fe
+      internalID: -911444488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_26
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1025
+        width: 293
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d022f912557143be0c5cbd1257d21
+      internalID: -1528450615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_33
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 688
+        width: 305
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ade00f595a8364cafaadb5d1a7d5af
+      internalID: -1726378711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_38
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 688
+        width: 293
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ea122de9bd95e4ea2a339728b16a51
+      internalID: 514834977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_39
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 688
+        width: 259
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad91222d0e5a0243862b70af6857849
+      internalID: 1200482831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_40
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 688
+        width: 258
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5657e3496a5f2df4799bc095e3523ea7
+      internalID: 402616802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_45
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 688
+        width: 254
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ebbecd9924fa49b9056f8b41025ef
+      internalID: -1019561746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_48
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 351
+        width: 281
+        height: 323
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5861fd8d9fa8034caac3eb2ce50d8f8
+      internalID: -1337957772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_49
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 351
+        width: 281
+        height: 323
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47d5bce9971f7745be6f61fcb90915e
+      internalID: -1178233005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_50
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 351
+        width: 281
+        height: 323
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b79d33abdd5a247bd2671ca9c92232
+      internalID: -475728450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_51
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 351
+        width: 281
+        height: 323
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e1c1f68bbc4b74b8f283ecb9072b57
+      internalID: 1061527452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_57
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 351
+        width: 266
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8937b65651cf4c34ab0a070a51655fc2
+      internalID: -1131727678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: agitated_60
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 14
+        width: 280
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28beb5e63cf8b744f84ddf1851d276b6
+      internalID: 1421725207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      agitated_58: 2054975169
+      agitated_15: 837279725
+      agitated_5: 828029367
+      agitated_47: -212657736
+      agitated_51: 1061527452
+      agitated_2: 134788503
+      agitated_28: -167930568
+      agitated_8: -2141777753
+      agitated_16: 1836263476
+      agitated_39: 1200482831
+      agitated_24: 1343779752
+      agitated_54: 433898422
+      agitated_11: -554340178
+      agitated_48: -1337957772
+      agitated_52: 1703632330
+      agitated_25: -911444488
+      agitated_61: -1269656755
+      agitated_0: -635118083
+      agitated_6: 1091712090
+      agitated_41: 1060237388
+      agitated_18: 536328448
+      agitated_7: -795053128
+      agitated_55: -1307894920
+      agitated_29: -424672020
+      agitated_44: -1874422768
+      agitated_45: -1019561746
+      agitated_40: 402616802
+      agitated_37: -1162085712
+      agitated_14: 372119757
+      agitated_36: 1734516774
+      agitated_1: 565743850
+      agitated_53: -1206607510
+      agitated_62: -1642376686
+      agitated_31: 464626643
+      agitated_50: -475728450
+      agitated_43: -620542503
+      agitated_49: -1178233005
+      agitated_21: 1050498915
+      agitated_32: -1629247846
+      agitated_23: -1784101213
+      agitated_46: -1008245277
+      agitated_35: 705021250
+      agitated_4: 1613402574
+      agitated_27: 285819451
+      agitated_57: -1131727678
+      agitated_22: 683218218
+      agitated_59: -215694691
+      agitated_3: 1155207242
+      agitated_56: -1269370515
+      agitated_19: 959843285
+      agitated_42: 1525474689
+      agitated_17: -1393513891
+      agitated_26: -1528450615
+      agitated_13: -338565895
+      agitated_38: 514834977
+      agitated_9: -1257139715
+      agitated_12: 414748785
+      agitated_33: -1726378711
+      agitated_30: 2147453933
+      agitated_20: 1578738706
+      agitated_60: 1421725207
+      agitated_34: -1891681768
+      agitated_10: 63230870
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

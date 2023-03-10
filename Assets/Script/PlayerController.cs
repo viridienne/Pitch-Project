@@ -3,19 +3,26 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float moveSpeed => GameManager.Instance.PlayerConfig.MoveSpeed;
-
+    
+    
     [SerializeField] private bool isDragging;
     [SerializeField] private float defaultX;
     [SerializeField] private float maxY;
     [SerializeField] private float minY;
+    private BoxCollider2D collider;
     private Vector2 refPos;
     // Start is called before the first frame update
     void Start()
     {
         isDragging = false;
+        EventManager.Instance.OnWin += onWin;
+        collider = transform.GetComponent<BoxCollider2D>();
     }
 
-    
+    private void onWin()
+    {
+        collider.enabled = false;
+    }
     // Update is called once per frame
     void Update()
     {

@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: SpawnConfig
   m_EditorClassIdentifier: 
   foodPref: {fileID: 6197248950520320685, guid: 058aeff0d74a942419b680732a465890, type: 3}
-  DefaultSpeed: 2
+  Speed: 4
+  Delay: 1
   SpawnAmount: 50
   RowPosY:
   - 0.18
   - -1.8
   - -3.77
-  MaxSpeed: 4
-  MinSpeed: 2
-  MinDelay: 1
-  MaxDelay: 1.5

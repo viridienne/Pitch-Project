@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: e2cf75a6f18ab8648b70846c04d30021
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eat wrong food_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1026
+        width: 273
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abcbe0e0f39ec64d86920941d85f7da
+      internalID: -1017732056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_6
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1026
+        width: 273
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e7a0f9027475d4fb57350b400b0159
+      internalID: 929703979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_8
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1026
+        width: 273
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfcb1c130841b34bafa834a30715776
+      internalID: 1613561784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_10
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1021
+        width: 265
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d847dc38353abfa40817f80f2f3f1ce0
+      internalID: -1970633352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 684
+        width: 265
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5554a0f1b590c0142873fce7ce7b5e82
+      internalID: -173090452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_18
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 684
+        width: 265
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716687777085dcb42bfac925bad10271
+      internalID: 2067347485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_20
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 684
+        width: 265
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06261318f9e74944eb7597c54aa49526
+      internalID: -1186171699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_22
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 684
+        width: 265
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e6a92f8fce768408829bb26c8f974b
+      internalID: -651892522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_27
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 347
+        width: 265
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755d64f448847e241b7ce0aa874871a1
+      internalID: 398654994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 352
+        width: 273
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7592cc7ca80ac534cb691e61fae8bcbe
+      internalID: -1217960526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_31
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 354
+        width: 273
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70a4bd30daf5cb40ad6c962f0807f47
+      internalID: 1802761993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_33
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 352
+        width: 273
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43102ca42fced5d41a05ab7ae24aab13
+      internalID: 1490915677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 10
+        width: 265
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7485dcb79971b479f151b2f4fbebf9
+      internalID: -541899656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_38
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 10
+        width: 265
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930cc1a3c4e902249b6b91b562b4a97f
+      internalID: -413726694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_40
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 10
+        width: 265
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e2a0e1817264e40b2444356cbc5be5
+      internalID: 1913735938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eat wrong food_42
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 10
+        width: 265
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c955ca5f6c7873f478d05c96c47284e9
+      internalID: -1545951827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      eat wrong food_17: -1272447873
+      eat wrong food_6: 929703979
+      eat wrong food_11: -1688112334
+      eat wrong food_13: 1136107453
+      eat wrong food_36: -541899656
+      eat wrong food_3: -861074456
+      eat wrong food_22: -651892522
+      eat wrong food_1: -1138075706
+      eat wrong food_35: 1229055766
+      eat wrong food_46: -1380524146
+      eat wrong food_47: 220212004
+      eat wrong food_33: 1490915677
+      eat wrong food_44: -1032201322
+      eat wrong food_2: -1016984023
+      eat wrong food_8: 1613561784
+      eat wrong food_9: -1648840774
+      eat wrong food_29: -1217960526
+      eat wrong food_15: 1153268570
+      eat wrong food_23: 346890516
+      eat wrong food_19: -594602267
+      eat wrong food_45: -317540839
+      eat wrong food_42: -1545951827
+      eat wrong food_24: -284977917
+      eat wrong food_7: 866508199
+      eat wrong food_25: -919319491
+      eat wrong food_30: 1829290364
+      eat wrong food_5: -2093038380
+      eat wrong food_37: -1646796347
+      eat wrong food_12: 364232660
+      eat wrong food_38: -413726694
+      eat wrong food_18: 2067347485
+      eat wrong food_21: 2113865198
+      eat wrong food_39: 1396997167
+      eat wrong food_16: -173090452
+      eat wrong food_32: -2135816996
+      eat wrong food_41: -1300042637
+      eat wrong food_4: -1017732056
+      eat wrong food_0: 1607694913
+      eat wrong food_34: -1557584225
+      eat wrong food_26: 462639506
+      eat wrong food_43: 1170596651
+      eat wrong food_20: -1186171699
+      eat wrong food_10: -1970633352
+      eat wrong food_28: -1025731386
+      eat wrong food_40: 1913735938
+      eat wrong food_14: -94567844
+      eat wrong food_31: 1802761993
+      eat wrong food_27: 398654994
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

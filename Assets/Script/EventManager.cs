@@ -7,6 +7,8 @@ public class EventManager : MonoBehaviour
 
     public Action<string, float> OnFoodEat;
     public Action TriggerMonster;
+    public Action<string> OnMonsterAnimation;
+    public Action OnWin;
     private void Awake()
     {
         Instance = this;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using DigitalRuby.SoundManagerNamespace;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 
@@ -53,6 +54,7 @@ public class UIMergeController : MonoBehaviour
         yield return new WaitForSeconds(0.35f);
         mergePoints[1].transform.DOMove(toPoint.position, 0.5f);
         yield return new WaitForSeconds(0.5f);
+        SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("eatright"),AudioHelper.Instance.GetAudio("eatright").clip);
         CurrentTameLevel += _value;
         uiTame.UpdateTameBar(CurrentTameLevel, DefaultTameLevel);
         for (int i = 0; i < mergePoints.Length; i++)
@@ -71,18 +73,33 @@ public class UIMergeController : MonoBehaviour
         if (_foodId == FavFood)
         {
             PointUp();
+            EventManager.Instance.OnMonsterAnimation?.Invoke("rightfood");
             mergePoint++;
-            if (mergePoint >= 3)
+            switch (mergePoint)
             {
-                curPoint = 0;
-                mergePoint = 0;
-                mergeMistake = 0;
-                StartCoroutine(MergeAllPoints(_value));
+             case 1:
+                 SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("carrot_1"),AudioHelper.Instance.GetAudio("carrot_1").clip);
+                 break;
+                 case 2 :
+                     SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("carrot_2"),AudioHelper.Instance.GetAudio("carrot_2").clip);
+                     break;
+                 case 3:
+                     SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("carrot_3"),AudioHelper.Instance.GetAudio("carrot_3").clip);
+                     curPoint = 0;
+                     mergePoint = 0;
+                     mergeMistake = 0;
+                     StartCoroutine(MergeAllPoints(_value));
+                     EventManager.Instance.OnMonsterAnimation?.Invoke("excited");
+                     SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("excited"),AudioHelper.Instance.GetAudio("excited").clip);
+
+                     break;
             }
         }
         else
         {
             mergePoint--;
+            SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("eatwrong"),AudioHelper.Instance.GetAudio("eatwrong").clip);
+            EventManager.Instance.OnMonsterAnimation?.Invoke("wrongfood");
             if (mergePoint < 0)
             {
                 mergePoint = 0;
@@ -91,6 +108,7 @@ public class UIMergeController : MonoBehaviour
             mergeMistake++;
             if (mergeMistake >= 3)
             {
+                SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("eatwrongsigh"),AudioHelper.Instance.GetAudio("eatwrongsigh").clip);
                 mergeMistake = 0;
                 CurrentTameLevel -= _value;
                 if (CurrentTameLevel < 0) CurrentTameLevel = 0;

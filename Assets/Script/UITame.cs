@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using DigitalRuby.SoundManagerNamespace;
 using TMPro;
 
 public class UITame : MonoBehaviour
@@ -28,7 +29,18 @@ public class UITame : MonoBehaviour
     public void UpdateTameBar(float _value, float _maxValue)
     {
         var _curValue = _value / _maxValue;
-        if(_curValue>=0.5f) SpawnFoodManager.Instance.IncreaseSpeed();
+        if (_curValue >= 0.5f)
+        {
+            SpawnFoodManager.Instance.IncreaseSpeed();
+            EventManager.Instance.OnMonsterAnimation?.Invoke("agitated");
+            SoundManager.PlayOneShotSound(AudioHelper.Instance.GetAudio("agitated"),AudioHelper.Instance.GetAudio("agitated").clip);
+        }
+
+        if (_curValue >= 1f)
+        {
+            EventManager.Instance.OnWin?.Invoke();
+            EventManager.Instance.OnMonsterAnimation?.Invoke("gaintrust");
+        }
         DOVirtual.Float(tameBar.fillAmount, _curValue, 0.15f, amount =>
         {
             tameBar.fillAmount = amount;
@@ -51,7 +63,11 @@ public class UITame : MonoBehaviour
         {
             background.uvRect = new Rect(background.uvRect.position + new Vector2(scrollX/25, 0) * Time.deltaTime,background.uvRect.size);
             playSeconds -= Time.deltaTime;
-            txtTime.SetText($"{TimeSpan.FromSeconds(playSeconds).Minutes}"+":"+$"{TimeSpan.FromSeconds(playSeconds).Seconds}");
+            if (playSeconds <= 0)
+            {
+                playSeconds = 0;
+            }
+            txtTime.SetText($"{TimeSpan.FromSeconds(playSeconds).Minutes.ToString()}"+":"+$"{TimeSpan.FromSeconds(playSeconds).Seconds.ToString()}");
             yield return new WaitForEndOfFrame();
         }
     }
