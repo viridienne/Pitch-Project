@@ -5,12 +5,13 @@ public class SpawnFoodConfigSO : ScriptableObject
 {    
     public GameObject foodPref;
 
-    public float DefaultSpeed;
+    public float Speed;
+    public float Delay;
     public int SpawnAmount;
     public float[] RowPosY;
 
-    public float MaxSpeed;
-    public float MinSpeed;
-    public float MinDelay;
-    public float MaxDelay;
+    // public float MaxSpeed;
+    // public float MinSpeed;
+    // public float MinDelay;
+    // public float MaxDelay;
 }

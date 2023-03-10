@@ -32,14 +32,15 @@ public class SpawnFoodManager : MonoBehaviour
     private void doubleSpeed()
     {
         speed *=2;
+        roundDelay /= 2f;
     }
     // Start is called before the first frame update
     void Start()
     {
         isSpawning = false;
         // speed = Random.Range(config.MinSpeed, config.MaxSpeed);
-        speed = 3;
-        roundDelay = Random.Range(config.MinDelay, config.MaxDelay);
+        speed = config.Speed;
+        roundDelay = config.Delay;
         increased = false;
     }
 

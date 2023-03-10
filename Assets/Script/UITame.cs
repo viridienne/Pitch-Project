@@ -14,13 +14,13 @@ public class UITame : MonoBehaviour
     [SerializeField] private RawImage background;
 
     [SerializeField] private TextMeshProUGUI txtTime;
-    private float playSeconds = 300;
+    private float playSeconds = 180;
      private float scrollX => SpawnFoodManager.Instance.Speed;
     // Start is called before the first frame update
     void Start()
     {
         tameBar.fillAmount = 0;
-        playSeconds = 300;
+        playSeconds = 180;
         StartCoroutine(IEScrollBG());
     }
     
